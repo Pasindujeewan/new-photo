@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Kandy Hill Country Wedding",
+    "category": "Weddings",
+    "date": "April 2026",
+    "location": "Kandy, Sri Lanka",
+    "description": "A romantic hill country wedding shaped by misty gardens, quiet portraits, and warm family celebrations.",
+    "coverImageUrl": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1800&q=82",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=82",
+      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=82",
+      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1400&q=82"
+    ],
+    "photographCount": 156,
+    "id": "album_seed_kandy_wedding",
+    "slug": "kandy-hill-country-wedding",
+    "createdAt": "2026-04-18T09:30:00.000Z"
+  },
+  {
+    "title": "Colombo Editorial Portraits",
+    "category": "Portraits",
+    "date": "June 2026",
+    "location": "Ceylon Frame Studio, Colombo",
+    "description": "Clean studio portraits with sculpted light, refined styling, and confident editorial direction.",
+    "coverImageUrl": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=1600&q=82",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=1400&q=82",
+      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1400&q=82",
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=82"
+    ],
+    "photographCount": 48,
+    "id": "album_seed_colombo_portraits",
+    "slug": "colombo-editorial-portraits",
+    "createdAt": "2026-06-06T10:15:00.000Z"
+  },
+  {
+    "title": "Galle Fort Brand Story",
+    "category": "Commercial Photography",
+    "date": "May 2026",
+    "location": "Galle Fort, Sri Lanka",
+    "description": "A hospitality and lifestyle campaign built around heritage architecture, natural light, and polished brand moments.",
+    "coverImageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=82",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=82",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=82",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=82"
+    ],
+    "photographCount": 92,
+    "id": "album_seed_galle_brand_story",
+    "slug": "galle-fort-brand-story",
+    "createdAt": "2026-05-12T08:45:00.000Z"
+  }
+]

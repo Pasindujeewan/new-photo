@@ -5,3 +5,4 @@ out
 .env*.local
 *.tsbuildinfo
 data/admin/*.json
+!data/admin/albums.json

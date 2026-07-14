@@ -1,4 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { constants } from "node:fs";
+import { access } from "node:fs/promises";
 import path from "node:path";
 import type { StoredAdminAlbum, StoredMessage } from "@/types/admin";
 import type { ContactFormValues } from "@/lib/validations/contact";
@@ -13,12 +15,11 @@ async function ensureStorage() {
 }
 
 async function readJson<T>(file: string, fallback: T): Promise<T> {
-  await ensureStorage();
   try {
+    await access(file, constants.F_OK);
     const content = await readFile(file, "utf8");
     return JSON.parse(content) as T;
   } catch {
-    await writeJson(file, fallback);
     return fallback;
   }
 }
