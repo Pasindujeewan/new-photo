@@ -11,7 +11,7 @@ import { testimonials } from "@/data/testimonials";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Editorial Photography Studio in Colombo",
+  title: "Ceylon Frame Studio",
   description: "Ceylon Frame Studio creates refined wedding, portrait, event, fashion, product, and commercial photography.",
   keywords: ["photography studio", "wedding photography", "commercial photography", "Colombo photographer"]
 });

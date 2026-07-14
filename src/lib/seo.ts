@@ -17,13 +17,16 @@ export function pageMetadata({
   keywords?: string[];
 }): Metadata {
   const url = absoluteUrl(path);
+  const isHomePage = path === "/";
+  const displayTitle = isHomePage ? siteName : title;
+
   return {
-    title,
+    title: isHomePage ? { absolute: siteName } : title,
     description,
     keywords,
     alternates: { canonical: url },
     openGraph: {
-      title,
+      title: displayTitle,
       description,
       url,
       siteName,
@@ -32,7 +35,7 @@ export function pageMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: displayTitle,
       description,
       images
     }

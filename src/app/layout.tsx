@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
   title: { default: "Ceylon Frame Studio | Editorial Photography", template: "%s | Ceylon Frame Studio" },
   description: "Premium photography studio for weddings, portraits, events, fashion, product, and commercial campaigns.",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/apple-icon.svg", type: "image/svg+xml" }]
+  },
   robots: { index: true, follow: true }
 };
 
