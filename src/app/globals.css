@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f8f4ed;
+  color: #11100e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.9), rgba(248, 244, 237, 0.9) 34%, rgba(232, 225, 213, 0.55)),
+    #f8f4ed;
+  color: #11100e;
+}
+
+body::before {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  content: "";
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.92' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.65'/%3E%3C/svg%3E");
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  outline-color: #b28a4a;
+  outline-offset: 4px;
+}
+
+::selection {
+  background: #b28a4a;
+  color: #fff;
+}
+
+.editorial-frame {
+  border: 1px solid rgba(17, 16, 14, 0.1);
+  box-shadow: 0 24px 80px rgba(17, 16, 14, 0.12);
+}
+
+.hairline-grid {
+  background-image:
+    linear-gradient(rgba(17, 16, 14, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 16, 14, 0.055) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
